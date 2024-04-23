@@ -1,0 +1,1212 @@
+CRITICAL - 2024-04-22 00:02:36 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:02:36 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:44:23 --> Error: Class "App\Controllers\CI_Controller" not found
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:45:25 --> ErrorException: Undefined property: App\Controllers\Login::$form_validation
+[Method: POST, Route: autenticar]
+in APPPATH\Controllers\login.php on line 21.
+ 1 APPPATH\Controllers\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$form_validation', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:45:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: autenticar]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(26): CodeIgniter\Model->__call('validacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:46:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: autenticar]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(26): CodeIgniter\Model->__call('validacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:47:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: autenticar]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(26): CodeIgniter\Model->__call('validacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 00:48:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: autenticar]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(26): CodeIgniter\Model->__call('validacion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 01:08:00 --> ParseError: syntax error, unexpected token "class"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 02:33:11 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 02:33:11 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 03:02:39 --> ArgumentCountError: Too few arguments to function App\Models\UsuariosModel::auth(), 1 passed in C:\xampp\htdocs\examen_ulises\app\Controllers\login.php on line 25 and exactly 2 expected
+[Method: POST, Route: auth]
+in APPPATH\Models\UsuariosModel.php on line 33.
+ 1 APPPATH\Controllers\login.php(25): App\Models\UsuariosModel->auth('123456')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 03:03:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(886): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\UsuariosModel.php(45): CodeIgniter\Model->__get('encrypter')
+ 4 APPPATH\Controllers\login.php(25): App\Models\UsuariosModel->auth('123456', 'ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 03:23:50 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:12:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:16:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:10 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:18:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(27): CodeIgniter\Model->__call('getUsuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 05:28:35 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: /]
+in APPPATH\Controllers\login.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 13:22:26 --> ErrorException: Undefined property: App\Controllers\Login::$auth_model
+[Method: POST, Route: auth]
+in APPPATH\Controllers\login.php on line 21.
+ 1 APPPATH\Controllers\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$auth_model', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 13:23:18 --> ErrorException: Undefined property: App\Controllers\Login::$auth_model
+[Method: POST, Route: auth]
+in APPPATH\Controllers\login.php on line 21.
+ 1 APPPATH\Controllers\login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$auth_model', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 13:24:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(886): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\login.php(23): CodeIgniter\Model->__get('auth')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:20:21 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\register.php(22): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:20:23 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\register.php(22): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:20:44 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\register.php(22): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:22:02 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\register.php(22): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:22:32 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\register.php(22): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 14:48:41 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 19:52:55 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-04-22 21:18:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Login::$usuarios is deprecated in APPPATH\Controllers\login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:44:25 --> ParseError: syntax error, unexpected variable "$private", expecting "function" or "const"
+[Method: GET, Route: login]
+in APPPATH\Controllers\login.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:45:23 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 35.
+ 1 APPPATH\Controllers\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:45:23 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 35.
+ 1 APPPATH\Controllers\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:45:24 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 35.
+ 1 APPPATH\Controllers\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:45:37 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 35.
+ 1 APPPATH\Controllers\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:46:04 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 35.
+ 1 APPPATH\Controllers\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:48:25 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 33.
+ 1 APPPATH\Controllers\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:48:52 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 33.
+ 1 APPPATH\Controllers\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:54:08 --> BadMethodCallException: Call to undefined method App\Models\UsuariosModel::logged
+[Method: POST, Route: logged]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\login.php(26): CodeIgniter\Model->__call('logged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->logged()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 21:59:24 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 33.
+ 1 APPPATH\Controllers\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:08:40 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 33.
+ 1 APPPATH\Controllers\login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:33:37 --> mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-22 22:33:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:37 --> [Caused by] mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 5 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:33:39 --> mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-22 22:33:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:39 --> [Caused by] mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 5 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:33:45 --> mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-22 22:33:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:33:45 --> [Caused by] mysqli_sql_exception: Table 'examenlogin.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 4 APPPATH\Models\UsuariosModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\')')
+ 5 APPPATH\Controllers\register.php(32): App\Models\UsuariosModel->info('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:34:08 --> mysqli_sql_exception: Unknown column 'registro' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(49): App\Models\UsuariosModel->guardar(Array)
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-22 22:34:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:34:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'8143f49cace9704697ec2aa2b8df8077d92a842bb41543355fb6dd20988c51400982c60d442bdfe310b33b8c8e9cb8a1a425cee89b4312bf10c8c12aa53a6f4446c6660c32bdb0144434767ff9590851024256b48522\', \'2024-04-22 22:34:08\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'8143f49cace9704697ec2aa2b8df8077d92a842bb41543355fb6dd20988c51400982c60d442bdfe310b33b8c8e9cb8a1a425cee89b4312bf10c8c12aa53a6f4446c6660c32bdb0144434767ff9590851024256b48522\', \'2024-04-22 22:34:08\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:34:08 --> [Caused by] mysqli_sql_exception: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'8143f49cace9704697ec2aa2b8df8077d92a842bb41543355fb6dd20988c51400982c60d442bdfe310b33b8c8e9cb8a1a425cee89b4312bf10c8c12aa53a6f4446c6660c32bdb0144434767ff9590851024256b48522\', \'2024-04-22 22:34:08\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'8143f49cace9704697ec2aa2b8df8077d92a842bb41543355fb6dd20988c51400982c60d442bdfe310b33b8c8e9cb8a1a425cee89b4312bf10c8c12aa53a6f4446c6660c32bdb0144434767ff9590851024256b48522\', \'2024-04-22 22:34:08\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'8143f49cace9704697ec2aa2b8df8077d92a842bb41543355fb6dd20988c51400982c60d442bdfe310b33b8c8e9cb8a1a425cee89b4312bf10c8c12aa53a6f4446c6660c32bdb0144434767ff9590851024256b48522\', \'2024-04-22 22:34:08\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:34:22 --> mysqli_sql_exception: Unknown column 'registro' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(49): App\Models\UsuariosModel->guardar(Array)
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-22 22:34:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:34:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'4e8f8b6f909389488b1da613645d6e7c59be573f02e20e57333fb7bb35735f92a2f2949fbfff8be8695767cac9271f53c0f4aed185f545be4c9050091577c7630b8482cb741645e1ec4011557a8e5b4ce24ab57ca592\', \'2024-04-22 22:34:22\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'4e8f8b6f909389488b1da613645d6e7c59be573f02e20e57333fb7bb35735f92a2f2949fbfff8be8695767cac9271f53c0f4aed185f545be4c9050091577c7630b8482cb741645e1ec4011557a8e5b4ce24ab57ca592\', \'2024-04-22 22:34:22\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:34:22 --> [Caused by] mysqli_sql_exception: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'4e8f8b6f909389488b1da613645d6e7c59be573f02e20e57333fb7bb35735f92a2f2949fbfff8be8695767cac9271f53c0f4aed185f545be4c9050091577c7630b8482cb741645e1ec4011557a8e5b4ce24ab57ca592\', \'2024-04-22 22:34:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'4e8f8b6f909389488b1da613645d6e7c59be573f02e20e57333fb7bb35735f92a2f2949fbfff8be8695767cac9271f53c0f4aed185f545be4c9050091577c7630b8482cb741645e1ec4011557a8e5b4ce24ab57ca592\', \'2024-04-22 22:34:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulis@gmail.com\', \'4e8f8b6f909389488b1da613645d6e7c59be573f02e20e57333fb7bb35735f92a2f2949fbfff8be8695767cac9271f53c0f4aed185f545be4c9050091577c7630b8482cb741645e1ec4011557a8e5b4ce24ab57ca592\', \'2024-04-22 22:34:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:36:22 --> mysqli_sql_exception: Unknown column 'registro' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(49): App\Models\UsuariosModel->guardar(Array)
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-22 22:36:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:36:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'0a866f7496a06e2b1818221c47ccfc8ad17bfee29e32b16bbe5c182dd52b116596e6fb0879ba1ed3002708a20936ed28f50cd88e712c3e870e9350f8bff678220cba5369fd3a40529ebccd727690607122fc878811d3\', \'2024-04-22 22:36:22\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'0a866f7496a06e2b1818221c47ccfc8ad17bfee29e32b16bbe5c182dd52b116596e6fb0879ba1ed3002708a20936ed28f50cd88e712c3e870e9350f8bff678220cba5369fd3a40529ebccd727690607122fc878811d3\', \'2024-04-22 22:36:22\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:36:22 --> [Caused by] mysqli_sql_exception: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'0a866f7496a06e2b1818221c47ccfc8ad17bfee29e32b16bbe5c182dd52b116596e6fb0879ba1ed3002708a20936ed28f50cd88e712c3e870e9350f8bff678220cba5369fd3a40529ebccd727690607122fc878811d3\', \'2024-04-22 22:36:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'0a866f7496a06e2b1818221c47ccfc8ad17bfee29e32b16bbe5c182dd52b116596e6fb0879ba1ed3002708a20936ed28f50cd88e712c3e870e9350f8bff678220cba5369fd3a40529ebccd727690607122fc878811d3\', \'2024-04-22 22:36:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'0a866f7496a06e2b1818221c47ccfc8ad17bfee29e32b16bbe5c182dd52b116596e6fb0879ba1ed3002708a20936ed28f50cd88e712c3e870e9350f8bff678220cba5369fd3a40529ebccd727690607122fc878811d3\', \'2024-04-22 22:36:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-22 22:36:30 --> mysqli_sql_exception: Unknown column 'registro' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(49): App\Models\UsuariosModel->guardar(Array)
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-22 22:36:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:36:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'4902b96a3e201e824d7f5f8cb91207fd416a560ad302b966e4b8fbedc9ce01f2905084a378990b5d2124516f4de1549afb40b5c10307aeac115d2e6b64272ff648bc9392521b4b9d728d23587c776d1b400cc85ae338\', \'2024-04-22 22:36:30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'4902b96a3e201e824d7f5f8cb91207fd416a560ad302b966e4b8fbedc9ce01f2905084a378990b5d2124516f4de1549afb40b5c10307aeac115d2e6b64272ff648bc9392521b4b9d728d23587c776d1b400cc85ae338\', \'2024-04-22 22:36:30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:36:30 --> [Caused by] mysqli_sql_exception: Unknown column 'registro' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'4902b96a3e201e824d7f5f8cb91207fd416a560ad302b966e4b8fbedc9ce01f2905084a378990b5d2124516f4de1549afb40b5c10307aeac115d2e6b64272ff648bc9392521b4b9d728d23587c776d1b400cc85ae338\', \'2024-04-22 22:36:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'4902b96a3e201e824d7f5f8cb91207fd416a560ad302b966e4b8fbedc9ce01f2905084a378990b5d2124516f4de1549afb40b5c10307aeac115d2e6b64272ff648bc9392521b4b9d728d23587c776d1b400cc85ae338\', \'2024-04-22 22:36:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (\'ulises@gmail.com\', \'4902b96a3e201e824d7f5f8cb91207fd416a560ad302b966e4b8fbedc9ce01f2905084a378990b5d2124516f4de1549afb40b5c10307aeac115d2e6b64272ff648bc9392521b4b9d728d23587c776d1b400cc85ae338\', \'2024-04-22 22:36:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`email`, `pass`, `registro`) VALUES (:email:, :pass:, :registro:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\register.php(49): App\Models\UsuariosModel->guardar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:37:46 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 29.
+ 1 APPPATH\Controllers\login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:40:29 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Controllers\login.php on line 29.
+ 1 APPPATH\Controllers\login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:49:52 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:49:53 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:49:53 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:49:54 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:49:54 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:13 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:14 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:14 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:14 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:14 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:14 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-22 22:50:15 --> ErrorException: Undefined property: stdClass::$password
+[Method: POST, Route: logged]
+in APPPATH\Models\UsuariosModel.php on line 40.
+ 1 APPPATH\Models\UsuariosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'C:\\xampp\\htdocs\\examen_ulises\\app\\Models\\UsuariosModel.php', 40)
+ 2 APPPATH\Controllers\login.php(26): App\Models\UsuariosModel->logged('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->valdacion()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

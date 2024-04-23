@@ -1,0 +1,46 @@
+body {
+    background-image: url("/examen_ulises/public/img/pattern.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imgLogin {
+    width: 50px;
+    margin-left: 45%;
+}
+
+.form-control{
+    width: 100%;
+    height: 50px;
+}
+@media screen and (min-width: 576px) {
+    /* Para dispositivos con un ancho mínimo de 576px (dispositivos pequeños) */
+    .form-control {
+        width: 90%; /* Cambia el ancho al 90% */
+    }
+}
+
+.card {
+   display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        justify-content: flex-end; 
+    }
+    .card {
+        width: 500px;
+    }
+}
+
+
+.btn-custom {
+    background-color: rgb(35, 0, 122);
+    border-color: y;
+    color: rgb(255, 255, 255);
+}

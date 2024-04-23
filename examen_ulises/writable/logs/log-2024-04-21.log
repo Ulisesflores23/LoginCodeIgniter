@@ -1,0 +1,1319 @@
+CRITICAL - 2024-04-21 15:36:12 --> ParseError: syntax error, unexpected token ","
+[Method: GET, Route: register]
+in APPPATH\Controllers\register.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 15:58:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:08:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:08:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:10:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:13:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:19:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:20:03 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:20:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\register.php(33): CodeIgniter\Model->__call('guardar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:29:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to insert an entry.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert(null)
+ 3 APPPATH\Controllers\register.php(33): App\Models\UsuariosModel->guardar(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 16:32:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to insert an entry.
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseBuilder->validateInsert()
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert(null)
+ 3 APPPATH\Controllers\register.php(33): App\Models\UsuariosModel->guardar(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:40:59 --> mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:40:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:40:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:40:59 --> [Caused by] mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:41:02 --> mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:41:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:02 --> [Caused by] mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:41:12 --> mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:41:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:12 --> [Caused by] mysqli_sql_exception: Unknown column 'ulis@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulis@gmail`.`com`) VALUES (:ulis@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulis@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulis@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:41:29 --> mysqli_sql_exception: Unknown column 'ulises@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulises@gmail.co...')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulises@gmail.co...')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:41:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulises@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (:ulises@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulises@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulises@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ulises@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (:ulises@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulises@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulises@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:41:29 --> [Caused by] mysqli_sql_exception: Unknown column 'ulises@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`ulises@gmail`.`com`) VALUES (:ulises@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('ulises@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('ulises@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:23 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:23 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:24 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:24 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:25 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:25 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:25 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:25 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:26 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:26 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:43:26 --> mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list' in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\examen_ulises\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 17:43:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 2 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 3 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 4 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:43:26 --> [Caused by] mysqli_sql_exception: Unknown column 'juans@gmail.com' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (\'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`juans@gmail`.`com`) VALUES (:juans@gmail.com:)', [...], false)
+ 5 APPPATH\Models\UsuariosModel.php(9): CodeIgniter\Database\BaseBuilder->insert('juans@gmail.com')
+ 6 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->guardar('juans@gmail.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:44:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:44:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:44:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:44:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:44:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:44:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:44:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:44:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:29 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:44:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:44:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:44:30 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:53:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:53:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:53:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:53:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:40 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 17:53:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 17:53:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 17:53:40 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 18:04:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 18:04:18 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:04:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:04:18 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 18:07:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 18:07:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:07:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:07:43 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 18:08:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\examen_ulises\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\examen_ulises\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\examen_ulises\app\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\examen_ulises\app\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+#5 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(933): App\Controllers\Register->guardar()
+#6 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\examen_ulises\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen_ulises\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\examen_ulises\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\examen_ulises\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-21 18:08:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: POST, Route: registroUsuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:08:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:08:07 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 4 APPPATH\Models\UsuariosModel.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE (email = \'ulis@gmail.com\'')
+ 5 APPPATH\Controllers\register.php(27): App\Models\UsuariosModel->consulta('ulis@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 18:28:38 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: register]
+in APPPATH\Controllers\register.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 19:37:17 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: register]
+in APPPATH\Controllers\register.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\examen_ulises\\app\\Controllers\\Register.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 20:13:54 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: register]
+in APPPATH\Helpers\sistema_helper.php on line 22.
+ 1 APPPATH\Controllers\register.php(12): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Register->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 21:28:38 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: login]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
